@@ -9,6 +9,7 @@ To install k6 on your system, follow this link
 https://grafana.com/docs/k6/latest/get-started/installation/
 
 ## Running
+export environment variables
 ```
 export DURATION_FULLY_RAMP_UP=3
 export DURATION_STAY_ON_PEAK=4
@@ -19,12 +20,12 @@ export VIRTUAL_USERS=5
 export DURATION_FOR_REQUEST_FULFILLED=150
 ```
 
-run GET
+trigger GET
 ```
 k6 run ./api-test/GET.js
 ```
 
-run CRUD
+trigger CRUD
 ```
 k6 run ./api-test/CRUD.js
 ```
