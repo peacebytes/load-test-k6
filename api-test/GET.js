@@ -21,9 +21,9 @@ export const options = {
   },
 
   stages: [
-    { duration: `${DURATION_FULLY_RAMP_UP}s`, target: VIRTUAL_USERS }, // duration ramping up from 0 to target VUS
-    { duration: `${DURATION_STAY_ON_PEAK}s`, target: VIRTUAL_USERS }, // duration staying on peak with target VUS
-    { duration: `${DURATION_FULLY_RAMP_DOWN}s`, target: 0 },   // duration ramping down from target VUS to 0
+    { duration: `${DURATION_FULLY_RAMP_UP}s`, target: VIRTUAL_USERS }, // duration ramping up from 0 to target VIRTUAL_USERS
+    { duration: `${DURATION_STAY_ON_PEAK}s`, target: VIRTUAL_USERS }, // duration staying on peak with target VIRTUAL_USERS
+    { duration: `${DURATION_FULLY_RAMP_DOWN}s`, target: 0 },   // duration ramping down from target VIRTUAL_USERS to 0
   ],
 };
 
